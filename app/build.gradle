@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 
-apply plugin: com.sogou.teemo.watch.gradle.TestPlugin
+//apply plugin: com.sogou.teemo.watch.gradle.TestPlugin
 
 android {
     compileSdkVersion 28
@@ -16,6 +16,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+    aaptOptions {
+        additionalParameters '--allow-reserved-package-id','--package-id','0x70'
     }
 }
 
