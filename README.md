@@ -1,3 +1,6 @@
+### 使用 aapt2 修改资源 id 的方案请查看 aapt2 分支
+
+
 #### What is gradle plugin
 作为 Android 的开发人员，只要使用过 AndroidStudio 的，想必对 app 目录下的 build.gradle 都不陌生，还记得 build.gradle 的第一行是什么吗？
 ```groovy
